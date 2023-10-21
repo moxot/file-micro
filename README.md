@@ -3,7 +3,7 @@
 Test simple node.js "microservice" to store user-uploaded files in 
 Azure blob storage service. 
 
-Security might be an issue, but for simplicity’s sake, and to keep
+Security with this will be an issue, but for simplicity’s sake, and to keep
 it as thin as possible, used SAS tokens in order not to store extra data
 on microservice side. Files are streamed to and form
 Azure blob storage. Did not overly complicate, therefore SAS string 
